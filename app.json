@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/middle/middle",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/isauth/isauth"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fdb92c",
