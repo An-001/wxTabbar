@@ -6,7 +6,7 @@ Page({
   data: {
     //tabbar
     tabbar: {},
-    motto: 'Hello World',
+    motto: '你好，欢迎~',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
