@@ -1,0 +1,34 @@
+/* pages/auth/auth.wxss */
+.auth{
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .imageBox{
+    position: absolute;
+    right: 0;
+    top: 60rpx;
+  }
+  .btnBox{
+    position: absolute;
+    left: 50%;
+    top: 600rpx;
+    transform: translateX(-50%);
+  }
+  .button{
+    width: 420rpx;
+    height: 100rpx;
+    margin-top: 80rpx;
+    line-height: 100rpx;
+    border: transparent;
+    background: rgb(228, 231, 14);
+    color: white;
+    box-shadow: 5rpx 5rpx 5rpx rgb(169, 218, 141);
+  }
+  .authFont{
+    font-size: 32rpx;
+    text-align: center;
+  }

@@ -1,6 +1,6 @@
 <!--pages/middle/middle.wxml-->
 <view>
 
-<view bind:tap="sss">我是加页面</view>
-
+<view>我是发布页面</view>
+    <button class="cu-btn bg-red margin-tb-sm lg anms">嫣红</button>
 </view>

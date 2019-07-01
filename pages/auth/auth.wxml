@@ -1,0 +1,15 @@
+<!--授权 -->
+<view class="auth" wx:if="{{canIUse}}">
+  <view class="imageBox">
+    <image class="img" src="../../image/welcome.jpg"></image>
+  </view>
+  <view class="btnBox" hover-class="none" hover-stop-propagation="false">
+    <view class="authFont">
+      需要授权才能获得更多信息~
+    </view>
+    <!-- <button class="button"  open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 授权登录小程序 </button> -->
+    <button class='button' type='primary' open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  </view>
+</view>
+
+<view wx:else>请升级微信版本</view>

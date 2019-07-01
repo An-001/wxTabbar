@@ -8,8 +8,6 @@ Page({
     tabbar: {},
     motto: '你好，欢迎~',
     userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   
   onLoad: function () {
