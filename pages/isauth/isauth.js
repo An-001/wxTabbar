@@ -7,7 +7,6 @@ Page({
   data: {
 
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
@@ -28,19 +27,22 @@ Page({
   onShow: function () {
 
   },
-
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-
+    
   },
 
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-
+    console.log(133)
+    wx.switchTab({
+     
+      url: '/pages/index/index',
+    })
   },
 
   /**

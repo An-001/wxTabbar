@@ -1,6 +1,6 @@
 <!--pages/middle/middle.wxml-->
 <view>
 
-我是加页面
+<view bind:tap="sss">我是加页面</view>
 
 </view>

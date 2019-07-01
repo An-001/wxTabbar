@@ -3,6 +3,6 @@
 
   <!-- <view>News: Welcome to you~</view> -->
   <image src="../../image/welcome.jpg"></image>
-  <button class='sureAuth'>确定授权</button>
+  <button class='sureAuth' bind:tap="nextUrl">确定授权</button>
 </view>
 

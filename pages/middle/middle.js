@@ -14,7 +14,7 @@ Page({
   onLoad: function (options) {
   
   },
-
+  
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -28,19 +28,26 @@ Page({
   onShow: function () {
   
   },
-
+  sss () {
+    wx.navigateTo({
+      url: '/pages/isauth/isauth',
+    })
+  },
   /**
    * 生命周期函数--监听页面隐藏
    */
   onHide: function () {
-  
+    console.log(1)
   },
-
+  navigateBack() {
+    wx.setStorageSync('key', 'value')
+    // wx.navigateBack()
+  },
   /**
    * 生命周期函数--监听页面卸载
    */
   onUnload: function () {
-  
+    
   },
 
   /**
